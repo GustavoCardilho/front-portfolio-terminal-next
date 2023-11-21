@@ -1,22 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=PT+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .teste::-webkit-scrollbar {
-    background: #09090b;
-    width: 5px;
+  background: #09090b;
+  width: 5px;
 }
 
 .teste::-webkit-scrollbar-track {
-    background: #09090b;
-    width: 5px;
+  background: #09090b;
+  width: 5px;
 }
 
 .teste::-webkit-scrollbar-thumb {
-    background: #27272a;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
+  background: #27272a;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+body {
+  background-color: #09090b;
+  overflow-x: hidden;
 }
