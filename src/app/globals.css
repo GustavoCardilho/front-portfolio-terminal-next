@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=PT+Sans&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.teste::-webkit-scrollbar {
+    background: #09090b;
+    width: 5px;
+}
+
+.teste::-webkit-scrollbar-track {
+    background: #09090b;
+    width: 5px;
+}
+
+.teste::-webkit-scrollbar-thumb {
+    background: #27272a;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
